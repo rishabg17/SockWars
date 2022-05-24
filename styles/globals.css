@@ -1,16 +1,148 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+body {
+  background: PeachPuff;
+  color: #333;
+  font-family: "Nunito";
+}
 a {
-  color: inherit;
+  color: #333;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid black;
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  margin-left: 100px;
+}
+.content-table thead tr {
+  background-color: LightSteelBlue;
+  color: inherit;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+.content-table th {
+  padding: 12px 15px;
+  text-align: left;
+}
+.content-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+.content-table tbody tr {
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.content-table tbody tr:nth-of-type(even) {
+  background-color: LightGray;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid black;
+}
+.immunity-board {
+  position: absolute;
+  margin: 25px 0;
+  margin-left: 1100px;
+  border-collapse: collapse;
+}
+.immunity-board thead tr {
+  background-color: LightSteelBlue;
+  font-weight: bold;
+  color: inherit;
+  text-align: center;
+}
+.immunity-board th {
+  padding: 5px 100px;
+  font-size: 2.0em;
+  border: 3px solid black;
+}
+.immunity-board tbody td {
+  padding: 30px 100px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: LightGray;
+  border: 3px solid black;
+}
+.eliminations {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1100px;
+  border-collapse: collapse;
+}
+.eliminations th {
+  padding: 5px 10px;
+  font-size: 2.0em;
+  border: 3px solid black;
+}
+.eliminations thead tr {
+  background-color: LightSteelBlue;
+  font-weight: bold;
+  color: inherit;
+  text-align: left;
+}
+.eliminations tbody td {
+  padding: 5px 7px;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: LightGray;
+  border: 3px solid black;
+}
+.sockimg {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  bottom: 300px;
+  right: 660px;
+}
+.target {
+  position: absolute;
+  margin: 25px 0;
+  left: 730px;
+  bottom: 200px;
+  border-collapse: collapse;
+}
+.target th {
+  padding: 5px 100px;
+  font-size: 2.0em;
+  border: 3px solid black;
+  background-color: LightSteelBlue;
+}
+.target tbody td {
+  padding: 30px 100px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: LightGray;
+  border: 3px solid black;
 }
